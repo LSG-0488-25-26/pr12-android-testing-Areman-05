@@ -54,7 +54,7 @@ fun MainView(myViewModel: MainViewModel, modifier: Modifier = Modifier) {
     val toggleState by myViewModel.toggleState.observeAsState(false)
 
     Box(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxSize()
             .padding(20.dp, 60.dp)
     ) {
