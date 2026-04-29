@@ -76,25 +76,22 @@ Composables validats:
 
 > Per executar UI tests cal un emulador o dispositiu Android connectat.
 
-## Evidencies (captures / gifs / videos)
+## Evidencies
 
-Afegir en aquest repositori captures de:
+Guarda les captures en `docs/images` i el video en `docs/videos`.
 
-- execucio correcta de `testDebugUnitTest`
-- execucio correcta de `connectedDebugAndroidTest`
-- demostracio visual dels tests UI corrent
+### Captures
 
-Exemple d'estructura recomanada:
+Execucio correcta de `testDebugUnitTest`:
 
-- `docs/images/unit-tests-ok.png`
-- `docs/images/ui-tests-ok.png`
-- `docs/gifs/ui-tests-run.gif`
+![Execucio testDebugUnitTest](docs/images/Captura%20de%20pantalla%202026-04-29%20194453.png)
 
-## Estat final
+Execucio correcta de `connectedDebugAndroidTest`:
 
-Projecte completat segons enunciat:
+![Execucio connectedDebugAndroidTest](docs/images/Captura%20de%20pantalla%202026-04-29%20195619.png)
 
-- MVVM + LiveData
-- Unit tests per tots els metodes del ViewModel
-- UI tests per tots els composables de MainView
-- Documentacio del proces de testing al README
+### Video
+
+- Demostracio visual dels tests UI corrent (Google Drive): [android-studio-test-exercice 2026-04-29 20-00-39.mp4](https://drive.google.com/file/d/1yLf3swSUB3JV_RdJjnmxR4N0VxrD-kkg/view?usp=sharing)
+
+## Fet per Pablo Arenas Mancebo
